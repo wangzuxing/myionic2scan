@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Camera Scan
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button round icon-only block (click)="scan()">
+    <ion-icon name="qr-scanner"></ion-icon>
+    </button>
+    <input type="text" [value]="scannedText">
+</ion-content>
